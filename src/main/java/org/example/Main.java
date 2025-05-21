@@ -11,7 +11,7 @@ public class Main{
         int number2=1;
         String string="Школа";
         try{
-            Main.method(string,number1);
+            method(string,number1);
             System.out.println("number1/number2="+number1/number2);
         }catch(IllegalArgumentException|NullPointerException|ArithmeticException e){
             System.out.println(e);
